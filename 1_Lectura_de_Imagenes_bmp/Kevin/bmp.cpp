@@ -51,7 +51,7 @@ int main(int argc, char *argv[]){
     fseek(arch,offset, SEEK_SET);
     fread(imgData,imageSize,1,arch);
     
-    //cambiamos a blanco y negro
+    //modificacion
     
     unsigned char *image = new unsigned char [height*width];
     unsigned char *BMPptr = imgData, *imageptr = image;
@@ -71,45 +71,7 @@ int main(int argc, char *argv[]){
     
     
     return 0;
-    /*
-    int r,g,b;
-    for(int y=height;y>0;y--){
-        for(int x=0; x<width; x++){
-            b=(imgData[3*(x+y*width)]);
-            g=(imgData[3*(x+y*width)+1]);
-            r=(imgData[3*(x+y*width)+2]);
-            
-        }
-    }
-        
-            b=(imgData[3*(x+y*width)]);
-            g=(imgData[3*(x+y*width)+1]);
-            r=(imgData[3*(x+y*width)+2]);
-
-            if(r==255 && g==255 && b==255){
-            printf(" ");
-            }else if(r==255 && g==255 && b==255){
-        printf(" ");
-      }else{
-        if(r>g && r>b){
-            printf("r");
-        }
-        if(g>r && g>b){
-            printf("g");
-        }else{
-            printf("b");
-        }
-      }
-    }
-      printf("\n");
-        
-        }*/
-        
-        
            
-    
-   
-    
 }
 
 
