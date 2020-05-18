@@ -5,6 +5,8 @@
 ![](https://raw.githubusercontent.com/FranklinCncr/TopicosEnComputacionGrafica/master/1_Lectura_de_Imagenes_bmp/Kevin/captura.png)
 
 
-![](https://raw.githubusercontent.com/FranklinCncr/TopicosEnComputacionGrafica/master/1_Lectura_de_Imagenes_bmp/Kevin/cubo.png))
+![](https://raw.githubusercontent.com/FranklinCncr/TopicosEnComputacionGrafica/master/1_Lectura_de_Imagenes_bmp/Kevin/cubo.bmp)
 
-# ---------------------------------------------------------------------------------
+# Modificación del archivo BMP
+
+![](https://raw.githubusercontent.com/FranklinCncr/TopicosEnComputacionGrafica/master/1_Lectura_de_Imagenes_bmp/Kevin/cubo_resultado.bmp)
